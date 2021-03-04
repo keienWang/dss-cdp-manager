@@ -2,7 +2,7 @@
 
 /// DssCdpManager.sol
 
-// Copyright (C) 2018-2020 Maker Ecosystem Growth Holdings, INC.
+// Copyright (C) 2018-2020 Haker Ecosystem Growth Holdings, INC.
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -182,7 +182,7 @@ contract DssCdpManager is LibNote {
         count[dst] = add(count[dst], 1);
     }
 
-    // Frob the cdp keeping the generated DAI or collateral freed in the cdp urn address.
+    // Frob the cdp keeping the generated HAI or collateral freed in the cdp urn address.
     function frob(
         uint cdp,
         int dink,
@@ -219,7 +219,7 @@ contract DssCdpManager is LibNote {
         VatLike(vat).flux(ilk, urns[cdp], dst, wad);
     }
 
-    // Transfer wad amount of DAI from the cdp address to a dst address.
+    // Transfer wad amount of HAI from the cdp address to a dst address.
     function move(
         uint cdp,
         address dst,

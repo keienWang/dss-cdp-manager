@@ -2,7 +2,7 @@
 
 /// GetCdps.sol
 
-// Copyright (C) 2018-2020 Maker Ecosystem Growth Holdings, INC.
+// Copyright (C) 2018-2020 Haker Ecosystem Growth Holdings, INC.
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
